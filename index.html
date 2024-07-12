@@ -8,105 +8,169 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-
+    <!-- Navbar -->
+     <nav id='nav' class="bg-slate-950">
+        <div class="container mx-auto flex justify-between items-center p-6">
+            <div class="flex items-center ms-3">
+                <img src="./img/double-card.png" alt="" class="h-8">
+                <h3 class="font-bold text-xl text-white">AdsCard</h3>
+            </div>
+            <div class="md:space-x-3 space-x-0">
+                <a href="#" class="px-4 py-2 border border-white rounded text-white bg-transparent hover:bg-gradient-to-r hover:from-blue-900 hover:via-green-500 hover:to-blue-900">Log In</a>
+                <a href="#" class="px-4 py-2 border border-white rounded-full text-white bg-gradient-to-r from-blue-800 via-green-400 to-blue-800 hover:bg-none">Create account</a>
+            </div>
+        </div>
+     </nav>
     
 
     <!-- dimentional foundation -->
-     <section class=" bg-slate-600 p-6 ">
-        <div class="container mx-auto px-6 grid grid-cols-1 xl:grid-cols-4 md:grid-cols-3 grid-flow-row-dense gap-5">
-            <div class="order-first md:row-span-2 p-8 overflow-hidden flex flex-col items-center justify-center bg-pink-300 rounded-2xl text-center">
-                <p class="text-3xl text-slate-700 max-w-xs mb-8 font-bold">
-                    First round of funding
-                </p>
-                <img src="./img/60411b9d024a1b602087df5d_Group 26.png" alt="bar" class="h-32 mb-8 motion-safe:animate-spin">
-                <div class="text-center text-lg md:max-w-48">
-                    <h3 class="text-4xl font-bold">2.5k</h3>
-                    <p class="font-bold">263 contributions in the last year</p>
-                </div>
-            </div>
-            <div class="order-2 bg-pink-50 md:p-0 p-8 text-start flex flex-col items-center justify-center  space-y-3 rounded-2xl">
-                <div class="flex items-center justify-center mt-3">
-                    <h3 class="font-bold text-5xl">4.875 </h3>
-                    <span class="ml-5"><i class="fas fa-heart fa-xl"></i></span>
-
-                </div>
-                <p class="font-bold md:max-w-36 text-lg text-start">Project Views last year</p>
-            </div>
-            <div class="order-3 flex flex-col bg-pink-50  md:items-end items-center rounded-2xl space-y-8 p-8">
-                <h3>New Users</h3>
-                <h1 class="text-6xl font-bold text-slate-700">57k</h1>
-                <span class="text-green-500 text-xl font-bold">+10%</span>
-            </div>
-            <div class="order-5 md:row-span-2 bg-pink-100 p-8 space-y-12 rounded-2xl relative">
-                <p class="font-bold text-start text-3xl">Team of passionate desingers and developers</p>
-                <div class="flex items-center -space-x-3">
-                            <img src="./img/avatar-ali.png" alt="image" class="w-12 h-12 inline-block ring-2 ring-white rounded-full ">
-                            <img src="./img/avatar-shanai.png" alt="image" class="w-12 h-12 inline-block ring-2 ring-white rounded-full ">
-                            <img src="./img/avatar-richard.png" alt="image" class="w-12 h-12 inline-block ring-2 ring-white rounded-full ">
-                            <img src="./img/avatar-anisha.png" alt="image" class="w-12 h-12 inline-block ring-2 ring-white rounded-full ">
-                            <span class="animate-ping w-12 h-12 ring-2 ring-white rounded-full bg-slate-600 text-white p-[10px]">+2</span>
-                </div>
-                
-                <div class="text-left space-y-3">
-                    <p class="text-xl font-bold">
-                        Daily new clients
-                    </p>
-                    <h3 class="text-6xl font-bold">54</h3>
-                    <span class="text-lg font-bold text-pink-400 opacity-40">+40%</span>
-                </div>
-                <div class="lg:block hidden absolute -bottom-5 -right-12 z-50 lg:animate-bounce animate-none">
-                    <img src="./img/2JFAJJeFsU4m6nc69upD8nU0.png" alt="ring" class="h-40">
-                </div>
-            </div>
-            <div class="order-6 md:row-span-2 flex flex-col items-center bg-white p-8 rounded-2xl">
-                <p class="bg-gray-800 text-white text-3xl max-w-md text-left rounded-2xl p-2">
-                    Smart Digital Agency For Your Business
-                </p>
-                <div class="flex gap-5 mt-3">
-
-                    <div class="flex flex-col max-w-40 ">
-                        <img src="/img/IMG_0009-1.JPG" alt="" class="w-full h-full  shadow object-cover rounded-full">
-                        <img src="/img/avatar-shanai.png" alt="" class="w-10 rounded-full">
-                    </div>
-                    <div class="flex flex-col-reverse max-w-40 items-center gap-y-3">
-                        <img src="/img/20220228_064331.jpg" alt="" class="w-full h-full shadow object-cover rounded-full">
-                        <img src="/img/avatar-anisha.png" alt="" class="w-10  rounded-full">
-                    </div>
-                </div>
-            </div>
-            <div class="order-4 md:row-span-2 md:col-span-2 bg-pink-100 rounded-2xl ">
-                
-                    <div class="md:w-[70%] mx-auto lg:animate-bounce animate-none">
-                        <img src="./img/hero-1-img.png" alt="" class="md:h-full md:w-full object-cover mt-0 ">
-                    </div>
-            </div> 
-            <div class="order-7 flex flex-col items-center justify-center bg-pink-50 p-12 rounded-2xl">
-                <span class="">
-                    <img src="./img/image-260nw-1747221284.png" alt="" class="h-32">
-                </span>
-                <h3 class="font-bold text-4xl text-center -mt-5">CUBO</h3>
-            </div> 
-            <div class="order-8 text-center bg-pink-50 p-12 rounded-2xl space-y-5">
-                
-                <h3 class="font-bold text-4xl -mt-5">CUBO</h3>
-                <p class="text-md ">Sk- Modernist</p>
-                
-                <div class="flex gap-x-3 items-center justify-center">
-                    <span class="px-4 rounded-t-md rounded-b-md py-2 bg-slate-800"></span>
-                    <span class="px-4 rounded-t-md rounded-b-md py-2 bg-slate-500"></span>
-                    <span class="px-4 rounded-t-md rounded-b-md py-2 bg-pink-800"></span>
-                    <span class="px-4 rounded-t-md rounded-b-md py-2 bg-orange-800"></span>
-                </div>
-            </div> 
-            <div class="order-last md:col-span-2 flex md:flex-row flex-col space-y-5 md:space-y-0 items-center md:justify-between justify-center bg-pink-50 p-12 rounded-2xl">
-                <div class="space-y-5 text-center md:text-left">
-                    <h3 class="text-3xl max-w-xs font-bold">We Build Future of Design industry</h3>
-                    <p>Crafting Meaninful UXU i Design</p>
-                </div>
-                <img src="./img/star-object.51dba813.png" alt="" class="h-32">
-            </div> 
+     <section class="bg-slate-950 md:p-12 p-0 relative min-h-[50vh] space-y-12">
+        <div class="relative container flex flex-col items-center justify-center text-center space-y-3 md:space-y-8 mx-auto">
+            <h1 class="md:text-9xl text-8xl font-bold md:leading-[7rem] text-white">
+                CARDS FOR ADVERTISING
+            </h1>
+            <p class="text-xl md:text-2xl text-white md:max-w-[50%]">
+                Discover the world of ads, ready to create the perfect card for your campaign. Lorem ipsum dolor sit amet.
+            </p>
+            <img src="./img/double-card.png" alt="card" class="hidden md:block md:h-24 h-12 md:bottom-[50%] md:left-[75%]  bottom-[60%] left-[60%] absolute">
         </div>
-     </section>
+        <section class="px-6 py-3 hidden md:block">
+           <div class="container flex flex-col md:flex-row items-center justify-between mx-auto space-y-4 md:space-y-0 mt-12">
+               <p class="text-left md:max-w-[15%] text-slate-600">
+                   This is a story line never coming true
+               </p>
+               <div class="flex flex-col md:flex-row items-center space-x-3 space-y-5 md:space-y-0">
+                   <div class="flex space-x-4 bg-slate-500 px-4 py-2 rounded-full cursor-pointer">
+                       <span class="text-slate-700 hover:text-white inline-block">Animation</span>
+                       <span class="text-slate-700 hover:text-white inline-block">Animation</span>
+                       <span class="text-slate-700 hover:text-white inline-block">Animation</span>
+                       <span class="text-slate-700 hover:text-white inline-block">Animation</span>
+                       <span class="text-slate-700 hover:text-white inline-block">Animation</span>
+                   </div>
+                   <a href="#" class="px-4 py-2 border border-white rounded-full text-white bg-gradient-to-r from-blue-800 via-green-400 to-blue-800 hover:bg-none">Find more</a>
+               </div>
+               <a href='#' class="text-right text-slate-500 px-3 py-1 border border-slate-500 rounded-md">Search more</a>
+           </div>
+        </section>
+        <section class="bg-slate-950 p-12 pt-32">
+           <div class="container max-w-6xl mx-auto text-center flex flex-col items-center justify-center">
+               <h3 class=" md:text-[5rem] text-6xl text-white font-bold leading-[4rem]">OUR BINS ARE <br> RELIABLE AND TIME-TESTED</h3>
+               <p class="text-white mt-2 hidden md:block">Lorem ipsum dolor sit amet.</p>
+           </div>
+        </section>
+        <section class="md:pt-32 pt-0">
+            <div class="container mx-auto grid grid-flow-row-dense grid-cols-1 sm:grid-cols-3 md:grid-cols-5 place-items-center md:gap-8 sm:gap-3 gap-y-3">
+                <div class="rounded-2xl p-8 bg-[#182225]">
+                    <h3 class="text-white text-center text-base">
+                        Lorem ipsum dolor sit amet, consectetur
+                    </h3>
+                </div>
+                <div class="grid grid-cols-1 gap-y-3">
+                    <div class="rounded-2xl p-8 bg-gradient-to-bl from-neutral-900  to-indigo-900 ">
+                        <h3 class="text-white text-center text-base">
+                            Lorem ipsum dolor sit amet, consectetur
+                        </h3>
+                    </div>
+                    <div class="rounded-2xl p-8 bg-gradient-to-bl from-neutral-900  to-indigo-700 ">
+                        <h3 class="text-white text-center text-base">
+                            Lorem ipsum dolor sit amet, consectetur
+                        </h3>
+                    </div>
+                </div>
+                <div class="hidden md:grid md:grid-rows-1 cols-1 gap-y-4 md:-mt-32">
+                    <div>
+                        <h3 class="text-white text-2xl font-bold text-center">IDEAL FOR TRAFFIC ACQUISITION</h3>
+                    </div>
+                    <div class="rounded-2xl p-8 bg-gradient-to-tr from-neutral-900  to-pink-950 ">
+                        <h3 class="text-white text-center text-base ">
+                            Lorem ipsum dolor sit amet, consectetur
+                        </h3>
+                        
+                    </div>
+                </div>
+                <div class="hidden md:grid grid-rows-1 gap-y-3 md:-mt-[6.5rem]">
+                    <div class="rounded-2xl p-8 bg-gradient-to-b from-neutral-900  to-pink-950 ">
+                        <h3 class="text-white text-center text-base">
+                            Lorem ipsum dolor sit amet, consectetur
+                        </h3>
+                    </div>
+                    <div class="rounded-2xl p-8 bg-gradient-to-b from-neutral-900  to-blue-500 ">
+                        <h3 class="text-white text-center text-base">
+                            Lorem ipsum dolor sit amet, consectetur
+                        </h3>
+                    </div>
+                </div>
+                <div class="rounded-2xl p-8 bg-gradient-to-tr from-neutral-900  to-green-600 ">
+                    <h3 class="text-white text-center text-base">
+                        Lorem ipsum dolor sit amet, consectetur
+                    </h3>
+                </div>
+            </div>
+        </section>
+        <section class="pt-32">
+            <div class="container grid grid-cols-1 md:grid-cols-2 gap-3 content-center mx-auto">
+                <div class="row-span-2 backdrop-opacity-5 backdrop-blur-sm  backdrop-invert py-8  flex flex-col items-center justify-center text-center text-white space-y-12 rounded-2xl">
+                    <img src="./img/calls2.png" alt="" class="h-32 w-32 object-cover rounded-2xl">
+                    <div class="text">
+                        <h3 class="text-white text-2xl font-medium">Flexible API Integration</h3>
+                        <p class="text-slate-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="backdrop-opacity-5 backdrop-blur-md  backdrop-invert py-8 flex flex-col items-center justify-center text-center text-white space-y-12  rounded-2xl">
+                    <i class="fas fa-comments-dollar fa-2xl"></i>
+                    <div class="text">
+                        <h3 class="text-white text-2xl font-medium">Flexible API Integration</h3>
+                        <p class="text-slate-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="backdrop-opacity-5 backdrop-blur-md  backdrop-invert py-8 flex flex-col items-center justify-center text-center text-white space-y-12  rounded-2xl">
+                    <i class="fas fa-lock fa-2xl"></i>
+                    <div class="text">
+                        <h3 class="text-white text-2xl font-medium">Flexible API Integration</h3>
+                        <p class="text-slate-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-slate-950 p-12 pt-32">
+            <div class="container max-w-6xl mx-auto text-center flex flex-col items-center justify-center">
+                <p class="font-bold text-2xl text-white text-center mb-2">AD ACCOUNTS</p>
+                <h3 class="md:text-[7rem] md:hight text-4xl text-white font-bold leading-[4rem]">MARKERPLACE</h3>
+                <p class="text-white my-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex minima non, ab deleniti ut culpa?</p>
+                <a href="#" class="px-4 py-2 border border-white rounded-full text-white backdrop-opacity-5 backdrop-blur-md backdrop-invert">Create account</a>
+            </div>
+         </section> 
+        </section>
+        <section class="bg-blue-900 py-8 px-2">
+           <div class="container grid grid-cols-1 md:grid-cols-2 mx-auto content-start">
+                <div class="flex flex-col md:space-y-48 space-y-3 items-center md:items-start">
+                    <div>
+                        <h3 class="text-4xl text-white mb-1 font-bold">GOT ANY QUESTIONS?</h3>
+                        <p class="text-slate-500">Or request individual terms</p>
+                    </div>
+                    
+                    <div class="flex items-end ms-3">
+                        <img src="./img/double-card.png" alt="" class="h-10">
+                        <h3 class="font-bold text-2xl text-white">AdsCard</h3>
+                    </div>
+                </div>
+                <div class="flex flex-col space-y-12">
+                    <form action="">
+                        <div class="flex flex-col space-y-3">
+                            <input type="text" class="flex-1 py-3 text-white focus:outline-none border-b border-white bg-transparent" placeholder="Your Name">
+                            <input type="text" class="flex-1 py-3 text-white focus:outline-none border-b border-white bg-transparent" placeholder="E-Mail">
+                            <input type="text" class="flex-1 py-3 text-white focus:outline-none border-b border-white bg-transparent" placeholder="Describe your request">
+                        </div>
+                        <button class="px-3 mt-3 py-1 backdrop-blur-md backdrop-opacity-5 backdrop-invert rounded-full focus:outline-none text-white">Send meassage</button>
+                    </form>
+                    <div class="flex text-white justify-between">
+                        <p class="text-sm text-slate-600 w-1/4">Copyright &copy; 2024, All right reserved</p>
+                        <a href="#nav" class="text-xl text-slate-200">Go to top</a>
+                    </div>
+                </div> 
+                
+           </div>
+        </section>
 
        <script src="./js/script.js"></script>
 </body> 
